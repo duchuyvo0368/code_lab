@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setListAdapter() {
-        val  listUser= listOf<User>(User("Huy",12),User("Huy",12),User("Huy",12),User("Huy",12))
+        val  listUser= listOf<User>(User("Le Van Hoang",12),User("Duc Huy",17),User("Hoan",16),User("Nam",15))
         listUserAdapter= ListUserAdapter(listUser)
         val linearLayoutManager = LinearLayoutManager(this)
         binding.listUser.adapter=listUserAdapter
